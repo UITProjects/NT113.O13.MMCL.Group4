@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-11-01T05:28:57.547Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="weJ7LJxU7xgLHB5xgEZw" version="22.0.3" type="device" pages="2">
+<mxfile host="Electron" modified="2023-11-04T07:10:26.875Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="_KoExZO719z6h-XH8Rsh" version="22.0.3" type="device" pages="2">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
-    <mxGraphModel dx="8297" dy="5425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="4925" dy="3346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -532,13 +532,13 @@
         <mxCell id="SPJtl7lWAOf3fLxejcrG-194" value="&lt;font style=&quot;font-size: 45px;&quot;&gt;Cầu thang&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;direction=south;" parent="1" vertex="1">
           <mxGeometry x="-1401.245" y="528.755" width="150" height="219.25" as="geometry" />
         </mxCell>
-        <mxCell id="SPJtl7lWAOf3fLxejcrG-195" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" parent="1" edge="1" target="SPJtl7lWAOf3fLxejcrG-106">
+        <mxCell id="SPJtl7lWAOf3fLxejcrG-195" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=5;" parent="1" target="SPJtl7lWAOf3fLxejcrG-106" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="755" as="sourcePoint" />
             <mxPoint x="90" y="754.6700000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SPJtl7lWAOf3fLxejcrG-196" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="SPJtl7lWAOf3fLxejcrG-108">
+        <mxCell id="SPJtl7lWAOf3fLxejcrG-196" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SPJtl7lWAOf3fLxejcrG-108" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1110" y="752.1199999999999" as="sourcePoint" />
             <mxPoint x="-1250" y="752" as="targetPoint" />
@@ -696,171 +696,183 @@
     </mxGraphModel>
   </diagram>
   <diagram id="gB8_JT2DPomgY6Zbhq4g" name="logic">
-    <mxGraphModel dx="3753" dy="2363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3118" dy="1968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WeXSVvfuV43OLhLiw36W-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WeXSVvfuV43OLhLiw36W-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-45" y="-40" width="470" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="iUCWWKxF8pgzZfsl4Qkn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iUCWWKxF8pgzZfsl4Qkn-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-60" y="400" width="480" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-4" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rotation=90;" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-4" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="-10" y="55" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-6" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rotation=90;" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-6" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="280" y="55" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="80" as="sourcePoint" />
             <mxPoint x="260" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="120" as="sourcePoint" />
             <mxPoint x="260" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-10" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-10" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
           <mxGeometry x="-10" y="420" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-11" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-11" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
           <mxGeometry x="140" y="420" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-12" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-12" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
           <mxGeometry x="300" y="420" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.35;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="lXuOj0vKNNwKezfyBdjA-10">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.35;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="lXuOj0vKNNwKezfyBdjA-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="130" as="sourcePoint" />
             <mxPoint x="18" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXuOj0vKNNwKezfyBdjA-10">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="lXuOj0vKNNwKezfyBdjA-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="70" y="400" as="sourcePoint" />
             <mxPoint x="280" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXuOj0vKNNwKezfyBdjA-11" target="lXuOj0vKNNwKezfyBdjA-4">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-20" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="lXuOj0vKNNwKezfyBdjA-11" target="lXuOj0vKNNwKezfyBdjA-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="430" as="sourcePoint" />
             <mxPoint x="290" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXuOj0vKNNwKezfyBdjA-11" target="lXuOj0vKNNwKezfyBdjA-6">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="lXuOj0vKNNwKezfyBdjA-11" target="lXuOj0vKNNwKezfyBdjA-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="80" y="430" as="sourcePoint" />
             <mxPoint x="290" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-22" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.customer_gateway;" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-22" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.customer_gateway;" parent="1" vertex="1">
           <mxGeometry x="115" y="-320" width="130" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="20" y="40" as="sourcePoint" />
             <mxPoint x="140" y="-180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="340" y="30" as="sourcePoint" />
             <mxPoint x="220" y="-180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXuOj0vKNNwKezfyBdjA-12">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="lXuOj0vKNNwKezfyBdjA-12" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="430" as="sourcePoint" />
             <mxPoint x="360" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lXuOj0vKNNwKezfyBdjA-12" target="lXuOj0vKNNwKezfyBdjA-4">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lXuOj0vKNNwKezfyBdjA-12" target="lXuOj0vKNNwKezfyBdjA-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="430" as="sourcePoint" />
             <mxPoint x="370" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-28" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-28" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
           <mxGeometry x="-10" y="530" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-29" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-29" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
           <mxGeometry x="140" y="520" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-30" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-30" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
           <mxGeometry x="295" y="520" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-31" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-31" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
           <mxGeometry x="-10" y="620" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-32" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-32" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
           <mxGeometry x="140" y="620" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-33" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-33" value="" style="image;html=1;image=img/lib/clip_art/networking/Switch_128x128.png" parent="1" vertex="1">
           <mxGeometry x="300" y="610" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-35" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rotation=90;" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-35" value="" style="shape=mxgraph.cisco.switches.layer_3_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="-770" y="-410" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-38" value="Nhóm điện thoại, laptop của sinh viên&amp;nbsp;&lt;br&gt;(Vlan 1)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1250" y="20" width="120" height="80" as="geometry" />
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-38" value="Nhóm điện thoại, laptop của sinh viên&amp;nbsp;&lt;br&gt;(Vlan 1)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1390" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-39" value="Nhóm máy tính phòng học của trường&amp;nbsp;&lt;br&gt;(Vlan 2)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1100" y="20" width="120" height="80" as="geometry" />
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-39" value="Nhóm máy tính phòng học của trường&amp;nbsp;&lt;br&gt;(Vlan 2)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-1220" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-40" value="Nhóm máy tính cho các phòng ban&amp;nbsp;&lt;br&gt;(Vlan 3)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-960" y="20" width="120" height="80" as="geometry" />
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-40" value="Nhóm máy tính cho các phòng ban&amp;nbsp;&lt;br&gt;(Vlan 3)" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-985" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-41" value="Switch configuation&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-41" value="Switch configuation&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="-910" y="-270" width="380" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Vlan&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Vlan&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1070" y="-180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lXuOj0vKNNwKezfyBdjA-45" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;DHCP server ?&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lXuOj0vKNNwKezfyBdjA-45" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;DHCP server ?&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-800" y="-200" width="147.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="n2evIgm-S2RNhXkKxXr_-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lXuOj0vKNNwKezfyBdjA-44" target="lXuOj0vKNNwKezfyBdjA-38">
+        <mxCell id="n2evIgm-S2RNhXkKxXr_-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lXuOj0vKNNwKezfyBdjA-44" target="lXuOj0vKNNwKezfyBdjA-38" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1220" y="-80" as="sourcePoint" />
             <mxPoint x="-1170" y="-130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n2evIgm-S2RNhXkKxXr_-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lXuOj0vKNNwKezfyBdjA-44">
+        <mxCell id="n2evIgm-S2RNhXkKxXr_-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lXuOj0vKNNwKezfyBdjA-44" edge="1" target="lXuOj0vKNNwKezfyBdjA-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-980" y="-120" as="sourcePoint" />
             <mxPoint x="-1040" y="10" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="n2evIgm-S2RNhXkKxXr_-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lXuOj0vKNNwKezfyBdjA-44" target="lXuOj0vKNNwKezfyBdjA-40">
+        <mxCell id="n2evIgm-S2RNhXkKxXr_-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="lXuOj0vKNNwKezfyBdjA-44" target="lXuOj0vKNNwKezfyBdjA-40" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1030" y="-140" as="sourcePoint" />
             <mxPoint x="-1030" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yC0vMliAqTHVy1unnfpD-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Access list&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yC0vMliAqTHVy1unnfpD-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Access list&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1100" y="130" width="115" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yC0vMliAqTHVy1unnfpD-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Vlan1&lt;/b&gt;: &lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;giới hạn băng thông xuống 1MB/s, tăng băng thông lên 3MB/s nếu services &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;là ms teams, zoom&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Chỉ cho phép port 80 và 443, cấu hình không cho các thiết bị trong cùng vlan này giao tiếp trực tiếp với nhau&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Không cho phép truy cập trực tiếp vào server &quot; đặc biệt &quot; của trường&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yC0vMliAqTHVy1unnfpD-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Vlan1&lt;/b&gt;: &lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;giới hạn băng thông xuống 1MB/s, tăng băng thông lên 3MB/s nếu services &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;là ms teams, zoom&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Chỉ cho phép port 80 và 443, cấu hình không cho các thiết bị trong cùng vlan này giao tiếp trực tiếp với nhau&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Không cho phép truy cập trực tiếp vào server &quot; đặc biệt &quot; của trường&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1310" y="180" width="530" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="yC0vMliAqTHVy1unnfpD-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;font-size: 15px; background-color: initial;&quot;&gt;Vlan2&lt;/b&gt;&lt;span style=&quot;font-size: 15px; background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Giới hạn băng thông xuống 1MB/s, tăng băng thông lên 3MB/s nếu services là ms teams, zoom.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Chỉ cho phép port 80 và 443, không cho phép truy cập trực tiếp vào server &quot; đặc biệt &quot; của trường.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cho phép các PC trong cùng vlan giao tiếp trực tiếp với nhau&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="yC0vMliAqTHVy1unnfpD-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;font-size: 15px; background-color: initial;&quot;&gt;Vlan2&lt;/b&gt;&lt;span style=&quot;font-size: 15px; background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Giới hạn băng thông xuống 1MB/s, tăng băng thông lên 3MB/s nếu services là ms teams, zoom.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Chỉ cho phép port 80 và 443, không cho phép truy cập trực tiếp vào server &quot; đặc biệt &quot; của trường.&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Cho phép các PC trong cùng vlan giao tiếp trực tiếp với nhau&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1320" y="350" width="550" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="WeXSVvfuV43OLhLiw36W-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Vlan3&lt;/b&gt;: &lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Giới hạn băng thông xuống 5MB/s, Cho phép port 80 và 443, và một số port đặc biệt cho &quot;services riêng&quot; của trường&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Cho phép truy cập trực tiếp vào server &quot; đặc biệt &quot; của trường,&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;cho phép các PC trong cùng vlan giao tiếp trực tiếp với nhau&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WeXSVvfuV43OLhLiw36W-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Vlan3&lt;/b&gt;: &lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Giới hạn băng thông xuống 5MB/s, Cho phép port 80 và 443, và một số port đặc biệt cho &quot;services riêng&quot; của trường&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Cho phép truy cập trực tiếp vào server &quot; đặc biệt &quot; của trường,&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;cho phép các PC trong cùng vlan giao tiếp trực tiếp với nhau&amp;nbsp;&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1320" y="505" width="540" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WeXSVvfuV43OLhLiw36W-5" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Access layer&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="WeXSVvfuV43OLhLiw36W-5" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Access layer&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="-460" y="400" width="400" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="WeXSVvfuV43OLhLiw36W-6" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Collapsed core layer&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="WeXSVvfuV43OLhLiw36W-6" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Collapsed core layer&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="-440" y="-40" width="390" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="WeXSVvfuV43OLhLiw36W-7" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Two tier network Model&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+        <mxCell id="WeXSVvfuV43OLhLiw36W-7" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Two tier network Model&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" parent="1" vertex="1">
           <mxGeometry x="425" y="190" width="390" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="8a9Ps3o2STda5Ys0QG3D-1" value="Các phòng có thẩm quyển&lt;br&gt;(Vlan 4)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8a9Ps3o2STda5Ys0QG3D-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lXuOj0vKNNwKezfyBdjA-44" target="8a9Ps3o2STda5Ys0QG3D-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1030" y="-140" as="sourcePoint" />
+            <mxPoint x="-890" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8a9Ps3o2STda5Ys0QG3D-3" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;Vlan4&lt;/b&gt;: &lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Giới hạn băng thông xuống 10MB/s, Cho phép port 80 và 443, và một số port đặc biệt cho &quot;services riêng&quot; của trường&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Cho phép truy cập trực tiếp vào server &quot; đặc biệt &quot; của trường,&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Cho phép các PC trong cùng vlan giao tiếp trực tiếp với nhau&lt;/font&gt;&lt;/li&gt;&lt;li&gt;Các packet luôn được ưu tiên nếu mạng ở vlan này&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1320" y="640" width="540" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
